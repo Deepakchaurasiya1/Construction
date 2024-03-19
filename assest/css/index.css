@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Top Nav Bar Social Icon Hover Colour Change */
+#facebook-icon:hover {
+    color: #4064ac !important;
+}
+
+#twitter-icon:hover {
+    color: #1c9cea !important;
+}
+
+#instagram-icon:hover {
+    color: #df4668 !important;
+}
+
+#linkedin-icon:hover {
+    color: #0077b5 !important;
+}
+
+/* Nav Bar Font Size */
+ul li a {
+    font-family: Roboto Slab;
+    font-size: 18px !important;
+    font-weight: 550 !important;
+}
+
+ul li a:hover {
+    color: #ffc000 !important;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #ffc000;
+    color: white !important;
+    border: none !important;
+}
+
+.navbar-toggler {
+    padding: 0px !important;
+}
+
+/* Crousal Content Slider Css */
+.carousel-control-prev :hover {
+    background-color: #ffc000 !important;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: #ffc000;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-40%, -50%);
+    z-index: 1;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-inner .carousel-item {
+    position: relative;
+}
+
+.carousel-content h4 {
+    font-size: 30px;
+    font-family: Hind;
+}
+
+.carousel-content h3 {
+    font-size: 10px;
+    text-shadow: -4px 2px 3px #303030;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 58px;
+    margin: 10px 0;
+    color: #000;
+    font-weight: 700;
+    padding-left: 100px;
+    font-family: Hind;
+    text-align: center;
+
+}
+
+.carousel-content p {
+    
+    
+    padding-left: 15%;
+    text-align: start;
+
+}
